@@ -21,11 +21,11 @@ async def main():
     sg.theme('Dark Blue 14')
 
     layout = [
-        [sg.Text('Discord Bot Tester')],
+        [sg.Text('DiscordBotTester')],
         [sg.Text('token', size=(15, 1)), sg.InputText("", key="-token-")],
         [sg.Text('channel id', size=(15, 1)), sg.InputText('', key="-channel_id-")],
         [sg.Text('content', size=(15, 1)), sg.InputText('', key="-content-")],
-        [sg.Text("",size=(15, 1), key="-output-")],
+        [sg.Text("", size=(15, 1), key="-output-")],
         [sg.Submit(button_text='send'), sg.Submit(button_text='close')]
     ]
 
